@@ -1,13 +1,17 @@
+.title{
+	font-family: "black chancery";
+}
+
 /**************************
 *
 *	GENERAL
 *
 **************************/
 .header-background{
-	background-color: #DADAC8  !important;
+	background-color: #000000  !important;
 }
 body{
-	background-color: #DADAC8 !important ;
+	background-color: #000000 !important ;
 	
 }
 .camera_wrap a, .camera_wrap img, 
