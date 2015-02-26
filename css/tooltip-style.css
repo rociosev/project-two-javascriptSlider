@@ -1,0 +1,53 @@
+body {
+    padding: 0px;
+}
+
+.caption-plus{
+	position:relative;
+	z-index: 5;
+	width: 20px;
+	height: 20px;
+}
+
+.stick{
+	position:absolute;
+	z-index: 0;	
+	left: 25%;
+	top: 23%; 
+	width: 50%;
+	
+}
+/*.linktest{
+	position:relative;
+	width: 20%;
+	border: 1px solid green;
+	z-index: 5; 
+} */
+
+.mouth-guard{
+	position:absolute;
+	z-index: 0;	
+	left: 54%;
+	right: 0px;
+	height: 0px;
+	top: 23%; 
+}
+.shin-guards{
+	position:absolute;
+	z-index: 0;	
+	left: 25%;
+	right: 0px;
+	height: 0px;
+	top: 70%; 
+
+}
+
+.ball{
+	position:absolute;
+	z-index: 0;	
+	left: 54%;
+	right: 0px;
+	height: 0px;
+	top: 70%; 
+	
+}

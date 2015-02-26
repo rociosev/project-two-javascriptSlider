@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!-- Camera is a Pixedelic free jQuery slideshow | Manuel Masia (designer and developer) --> 
+<html> 
+<head> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" > 
+    <title>Learning field hockey</title> 
+   <meta name="description" content="Camera a free jQuery slideshow with many effects, transitions, adaptive layout, easy to customize, using canvas and mobile ready"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--///////////////////////////////////////////////////////////////////////////////////////////////////
+    //
+    //		Styles
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////////////////--> 
+    <link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'> 
+    <style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		a {
+			color: #09f;
+		}
+		a:hover {
+			text-decoration: none;
+		}
+		#back_to_camera {
+			background: rgba(255,255,255,.9); 
+			clear: both;
+			display: block;
+			height: 40px;
+			line-height: 40px;
+			padding: 20px;
+			position: relative;
+			z-index: 1;
+			
+		}
+		.fluid_container {
+			margin: 0 auto;
+			max-width: 2000px;
+			/*width: 70%; */		
+			margin-left: 10%;
+			margin-right: 10%;
+
+			
+		}
+	</style>
+
+    <!--///////////////////////////////////////////////////////////////////////////////////////////////////
+    //
+    //		Scripts
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////////////////--> 
+    
+<script src="http://code.jquery.com/jquery-2.0.0.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.1.1.js"></script>
+    <script type='text/javascript' src='scripts/jquery.mobile.customized.min.js'></script> <!--Actual slider-->
+    <script type='text/javascript' src='scripts/jquery.easing.1.3.js'></script>  <!--Actual slider-->
+    <script type='text/javascript' src='scripts/camera.js'></script> <!--Actual slider-->
+    <link rel="stylesheet" href="css/footer-style.css"/> <!--	Footer that sticks without specifid height-->
+    <link rel="stylesheet" href="css/jquery.stickyfooter.css" /> <!--	Footer that sticks without specifid height-->
+    <script type="text/javascript" src="scripts/jquery.stickyfooter.min.js"></script> <!--Footer that sticks without specified height-->
+    <script src="http://cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.js"></script>
+    <script type='text/javascript' src='scripts/Qtip.js'></script>
+<link rel="stylesheet" href="css/tooltip-style.css"/>
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.1/jquery.qtip.css"/>
+<link rel="stylesheet" href="css/quiz.css"/>
+    <script>
+		jQuery(function(){
+			
+			jQuery('#camera_wrap_3').camera({
+				height: '56%',
+				pagination: false,
+				thumbnails: true,
+				imagePath: 'images/'
+			});
+		
+		});
+
+	</script>
+ 
+</head>
+<body>
+	<div id="back_to_camera" class="header-background">
+    	<a href="#"></a>
+	<h2 align="center" position="relative"> <font size="15" color="black"> WELCOME</font> </h2>
+    </div><!-- #back_to_camera -->
+  
+    
+    <!-- heading bar -->
+	<div class="fluid_container">
+    	<h3 align="center">Getting started in Field Hockey!</h3 >
+	
+	<!-- slider starts -->
+        <div class="camera_wrap camera_emboss" id="camera_wrap_3">
+	    <!-- image 1 and thumbnail 1-->
+            <div data-thumb="images/slides/thumbs/started.jpg" data-src="images/slides/started.jpg" data-time="1500" data-trasPeriod="4000">
+			<!-- image 1 caption-->
+                  <div style="position:absolute; top:5%; left:5%; background:#000; color:#fff; padding:5px; width:45%" class="fadeIn">
+                    Use the arrows to navigate through this tutorial.	    
+                </div> <!-- image 1 caption ends-->
+		
+            </div> <!-- END image 1 and thumbnail 1 -->
+	    
+	    
+             <!-- essentials  and essentials -->
+            <div data-thumb="images/slides/thumbs/essentials.jpg" data-src="images/slides/essentials.jpg" data-time="1500" data-trasPeriod="4000">
+			<div  class="stick">
+			<a class="linktest" href="#test" title="A hook-shaped device made from wood, and/or composite materials, with a flat face on the left side which is used for hitting the ball."> <img src="images/plus.png"></a>
+			</div>
+			<div  class="ball">
+			<a class="linktest" href="#test" title="Made of hard plastic, usually white and with a circumference of approximately 230mm."> <img src="images/plus.png"></a>
+			</div>
+			<div  class="shin-guards">
+			<a class="linktest" href="#test" title="Used to protect your shins from being hurt by the ball or stick"> <img src="images/plus.png"></a>
+			</div>
+			<div  class="mouth-guard">
+			<a class="linktest" href="#test" title="Used to protect your teeth from being hurt by the ball or stick"> <img src="images/plus.png"></a>
+			</div>
+			<!-- essentials 1 caption-->
+                 <div style="position:absolute; top:5%; left:5%; background:#000; color:#fff; padding:5px; width:45%" class="fadeIn">
+                    Hover over the <a class="linktest" href="#test" title="plus sign"><img class=caption-plus src="images/plus.png"></a> to see the images' description.	    
+                </div> <!-- essentials 1 caption ends-->
+            </div> <!-- END image 1 and thumbnail 1 -->
+	    
+	    <!-- image 2 and thumbnail 2-->
+	    <div data-thumb="images/slides/thumbs/162873413-1797320-1418484095-2307096.jpg" data-src="images/slides/162873413-1797320-1418484095-2307096.jpg" data-time="1500" data-trasPeriod="4000">
+			<!-- image 2 caption-->
+			 <div style="position:absolute; top:5%; left:5%; background:#000; color:#fff; padding:5px; width:45%" class="fadeIn">
+                    Place your right hand on the bottom of the grip, and the left one on the top.
+                </div>
+            </div> <!-- END image 2 and thumbnail 2 -->
+	    
+	    <!-- image 3 and thumbnail 3-->
+	    <div data-thumb="images/slides/thumbs/10632860_860181220688121_3874796170663135113_n.jpg" data-src="images/slides/10632860_860181220688121_3874796170663135113_n.jpg" data-time="1500" data-trasPeriod="4000">
+			<!-- image 3 caption-->
+			<div style="position:absolute; top:5%; left:5%; background:#000; color:#fff; padding:5px; width:90%" class="fadeIn" >Put your heels parallel to each other, stand with your knees flexed and your back bent. Place the ball a few inches in front of your feet, and between them.
+			</div>
+            </div><!-- END image 3 and thumbnail 3 -->
+	    
+	    
+	    <!-- image 4 and thumbnail 4-->
+	    <div data-thumb="images/slides/thumbs/1453344_667619919944253_464518947_n.jpg" data-src="images/slides/1453344_667619919944253_464518947_n.jpg" data-time="1500" data-trasPeriod="4000" >
+			<!-- image 5 caption-->
+                  <div  style="position:absolute; top:5%; left:5%; background:#000; color:#fff; padding:5px; width:90%" class="fadeIn">
+                   Always aim to have the ball and your stick together to have better control.        </div>
+            </div> <!-- END image 4 and thumbnail 4 -->
+	    
+	     <!-- image 5 and thumbnail 5-->
+	    <div data-thumb="images/slides/thumbs/546901168643d.image.jpg" data-src="images/slides/546901168643d.image.jpg" data-time="1500" data-trasPeriod="4000">
+			<!-- image 5 caption-->
+                 <div style="position:absolute; top:5%; left:5%; background:#000; color:#fff; padding:5px; width:90%" class="fadeIn">
+                  When you run you should do so with the ball and stick besides your body, not in front, or behind.
+                </div>
+            </div><!-- END image 5 and thumbnail % -->
+	    
+	     <!-- image 6 and thumbnail ^-->
+	    <div data-thumb="images/slides/thumbs/start-quiz.jpg" data-src= "images/slides/quiz-background.jpg">
+		<iframe src="http://www.rociosevillad.com/project-2/quiz.html" width="100%" height="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		
+		
+            </div><!-- END image 6 and thumbnail 6 -->
+			
+	  
+        </div><!-- #camera_wrap_3 -->
+  
+    </div><!-- .fluid_container -->
+   
+    <div style="clear:both; display:block; height:100px"></div>  
+</body>
+ <footer>
+    <div id="footer">
+			<div class="container">
+				<p>Pictures and information gathered from "<a class="black" href= "http://www.wikihow.com/Play-Field-Hockey">How to play field hockey</a>" , "<a href="http://www.wikihow.com/Flick-in-Field-Hockey">How to flick in field hockey </a>" , and "<a class="bold" href="http://www.olympic.org/hockey-equipment-and-history?tab=equipment">Hockey Equipment and History</a>". <br>
+
+				<p class="credit">Website created by Rocio M. Sevilla Dieguez | February, 2015 </p>
+			</div>
+		</div>
+    </footer>
+</html>
